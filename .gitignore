@@ -1,0 +1,49 @@
+# Local editor and IDE state
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# Node and package manager caches
+node_modules/
+.npm/
+.pnpm-store/
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.kubeconfig
+
+# Logs and generated output
+*.log
+logs/
+tmp/
+temp/
+out/
+output/
+artifacts/
+
+# OS files
+.DS_Store
+Thumbs.db
